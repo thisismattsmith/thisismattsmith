@@ -1,12 +1,14 @@
 ---
 title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+date: "2020-12-01"
+description: "An introductory blog post"
+tag: "meta"
 ---
 
-This is my first post on my new fake blog! How exciting!
+It's 2020 and this is the first time I've had a website with my name on it. Crazy.
 
-I'm sure I'll write a lot more interesting things in the future.
+==I'm sure I'll write a lot more interesting things in the future.==
+
 
 Oh, and here's a great quote from this Wikipedia on
 [salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
@@ -21,7 +23,7 @@ Oh, and here's a great quote from this Wikipedia on
 
 ![Chinese Salty Egg](./salty_egg.jpg)
 
-You can also write code blocks here!
+You can also ==write== code blocks here!
 
 ```js
 const saltyDuckEgg = "chinese preserved food product"
@@ -229,3 +231,19 @@ This paragraph has some `code` in it.
 ![Alt Text](https://placehold.it/200x50 "Image Title")
 
     ![Alt Text](https://placehold.it/200x50 "Image Title")
+
+<hr />
+
+### Notes:
+
+1. This
+2. That
+3. Another one
+4. This one [google it](https://www.google.com "Google")
+Yup this is great mate
+
+
+
+<a href="www.google.com">google</a>
+
+

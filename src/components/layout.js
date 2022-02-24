@@ -17,9 +17,10 @@ const Layout = ({ location, title, children }) => {
       <main>{children}
         </main>
       <footer>
-        © {new Date().getFullYear()}, Matt Smith. Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+       © {new Date().getFullYear()}, Matt Smith. No tracking, no analytics. 
+       <p></p>
+       <p>I'm constantly experimenting with this site. If you spot any errors please <Link to="/contact">contact me</Link></p>.
+        <form><input type="text" label="email"></input></form>
       </footer>
     </div>
     </div>

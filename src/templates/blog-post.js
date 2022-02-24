@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -16,34 +17,36 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
+      <h3>/ writing</h3>
       <article
         className="blog-post"
         itemScope
         itemType="http://schema.org/Article"
       >
+        
         <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+         <h1 itemProp="headline">{post.frontmatter.title}</h1>
         </header>
         <section
+          classname="blog-post-wrapper"
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
-        <hr />
-        <footer>
-          <Bio />
-        </footer>
+        <p classname="blog-post-date">This post was first added to this site on {post.frontmatter.date}</p>
+        
+        <br></br>
       </article>
       <nav className="blog-post-nav">
         <ul
           style={{
             display: `flex`,
-            flexWrap: `wrap`,
+            flexWrap: `wrap-reverse`,
             justifyContent: `space-between`,
             listStyle: `none`,
             padding: 0,
           }}
         >
+        
           <li>
             {previous && (
               <Link to={previous.fields.slug} rel="prev">
@@ -60,6 +63,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </li>
         </ul>
       </nav>
+      <footer>
+          <Bio />
+        </footer>
     </Layout>
   )
 }
