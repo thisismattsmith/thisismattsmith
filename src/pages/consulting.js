@@ -9,7 +9,7 @@ const ConsultingPage = ({ data, location }) => {
   return (
     <Layout location={location}>
       <SEO title="Consulting" />
-      <h3>/ consulting</h3>
+      <h3>/consulting</h3>
       <h1>I help companies perform better through learning and development</h1><p>
       <p>
       </p>

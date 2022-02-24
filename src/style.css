@@ -1,4 +1,4 @@
-@import "../typography.css";
+@import "/typography.css";
 
 /* CSS Custom Properties Definitions */
 
@@ -29,7 +29,7 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: "Jost", Work Sans, Monetserrat, system-ui, -apple-system, BlinkMacSystemFont,
+  --fontFamily-sans: Jost, Work Sans, Monetserrat, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --fontFamily-serif: "Jost", "Merriweather", "Georgia", Cambria, "Times New Roman",
@@ -82,7 +82,7 @@ html {
 }
 
 body {
-  font-family: "Jost";
+  font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
   background-color: #fcfcfc;

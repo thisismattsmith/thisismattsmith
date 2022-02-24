@@ -9,7 +9,7 @@ const AboutPage = ({ data, location }) => {
   return (
     <Layout location={location}>
       <SEO title= "Contact Matt Smith" />
-      <h3>/ contact</h3>
+      <h3>/contact</h3>
       <h1>Let's chat</h1>
       <p>Speak to meeee.t so I can see how long the page width is.</p>
           
