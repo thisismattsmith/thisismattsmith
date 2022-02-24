@@ -7,49 +7,14 @@ const Greeting = ({ data, location }) => {
   var date = new Date();  
   var hour = date.getHours();  
   
- 
-  if (hour < 3) {  
-
-    return (
-      
-       
-        <p>
-          It's late!
-        </p>
-     
-    )
-  }
-  if (hour < 6) {  
-
-    return (
-      
-       
-        <p>
-          It's late!
-        </p>
-     
-    )
-  }
-  if (hour < 10) {  
-
-    return (
-      
-       
-        <p>
-          boo
-        </p>
-     
-    )
-  }
-
   if (hour < 12) {  
 
     return (
       
        
-        <p>
-          It's late!
-        </p>
+        <h1>
+         Good morning.
+        </h1>
      
     )
   }
@@ -60,33 +25,21 @@ if (hour < 17) {
   return (
     
      
-      <p>
-        Nump!
-      </p>
+      <h1>
+        Good afternoon.
+      </h1>
    
   )
 }
 
-  if (hour < 20) {  
-
-    return (
-      
-       
-        <p>
-          Indeed
-        </p>
-     
-    )
-  }
 
   if (hour < 23) {  
    
     return (
       
-        <p>
-          Good afternoon, welcome to my website. Biatch
-        </p>
-     
+        <h1>Good evening.
+        </h1>
+          
     )
   } 
   
@@ -95,7 +48,7 @@ if (hour < 17) {
     return (
     
         <p>
-          Yo!
+          Welcome.
         </p>
       
     )

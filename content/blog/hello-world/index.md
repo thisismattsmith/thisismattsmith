@@ -5,7 +5,7 @@ description: "An introductory blog post"
 tag: "meta"
 ---
 
-It's 2020 and this is the first time I've had a website with my name on it. Crazy.
+It's 2020 and this is the first time I've had a website with my name on it. Crazy. CRAZY
 
 ==I'm sure I'll write a lot more interesting things in the future.==
 

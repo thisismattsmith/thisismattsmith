@@ -17,7 +17,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <h3>/ writing</h3>
+      <h3>/writing</h3>
       <article
         className="blog-post"
         itemScope
