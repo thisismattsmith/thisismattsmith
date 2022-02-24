@@ -12,8 +12,8 @@ const Greeting = ({ data, location }) => {
     return (
       
        
-        <h1>
-         Good morning.
+      <h1 className="greeting-title">
+         Good morning!
         </h1>
      
     )
@@ -25,8 +25,8 @@ if (hour < 17) {
   return (
     
      
-      <h1>
-        Good afternoon.
+    <h1 className="home-title">
+        Good afternoon!
       </h1>
    
   )
@@ -37,7 +37,8 @@ if (hour < 17) {
    
     return (
       
-        <h1>Good evening.
+      <h1 className="home-title">
+        Good evening!
         </h1>
           
     )
@@ -47,9 +48,9 @@ if (hour < 17) {
     
     return (
     
-        <p>
-          Welcome.
-        </p>
+      <h1 className="home-title">
+          Welcome!
+        </h1>
       
     )
   }  

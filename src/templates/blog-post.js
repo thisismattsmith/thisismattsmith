@@ -17,7 +17,6 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <h3>/writing</h3>
       <article
         className="blog-post"
         itemScope
@@ -32,7 +31,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
-        <p classname="blog-post-date">This post was first added to this site on {post.frontmatter.date}</p>
+        
         
         <br></br>
       </article>
@@ -65,6 +64,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       </nav>
       <footer>
           <Bio />
+          <small classname="blog-post-date">Published: {post.frontmatter.date}</small>
         </footer>
     </Layout>
   )
