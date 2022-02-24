@@ -3,13 +3,13 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const AboutPage = ({ data, location }) => {
+const ProjectsPage = ({ data, location }) => {
   
 
   return (
     <Layout location={location}>
       <SEO title="About Matt Smith" />
-      <h3>/side projects</h3>
+      <h3>/projects</h3>
       <h1>Experiments and things I've done for fun</h1>
       <p></p>
       <hr></hr>
@@ -27,4 +27,4 @@ const AboutPage = ({ data, location }) => {
   )
 }
 
-export default AboutPage
+export default ProjectsPage

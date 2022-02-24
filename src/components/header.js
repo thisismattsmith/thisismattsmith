@@ -7,7 +7,7 @@ const Header = () => (
     <header>
     <div className="universalSidebar">
     <div className="sidebarPic">
-    <Link to="/"><img src={'/thisismattsmith.png'} alt="Profile pic" width="100px" float="left"/></Link>
+    <Link to="/"><img src={'/thisismattsmith.png'} alt="Profile pic of Matt Smith" width="90px" float="left"/></Link>
     </div>
   <div className="sidebar-wrapper">
           <ul>
@@ -15,7 +15,7 @@ const Header = () => (
             <li><Link to="/consulting" className="sidebar-link">consulting</Link></li>
             <li><Link to="/writing" className="sidebar-link">writing</Link></li>
             <li><Link to="/ideas" className="sidebar-link">ideas</Link></li>
-            <li><Link to="/side-projects" className="sidebar-link">side projects</Link></li>
+            <li><Link to="/side-projects" className="sidebar-link">projects</Link></li>
             <li><Link to="/contact" className="sidebar-link">contact</Link></li>
           </ul>  
   </div>

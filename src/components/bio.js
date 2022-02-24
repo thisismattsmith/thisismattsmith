@@ -14,7 +14,7 @@ const Bio = () => {
     query BioQuery {
       avatar: file(absolutePath: { regex: "/thisismattsmith.png/" }) {
         childImageSharp {
-          fixed(width: 50, height: 50, quality: 95) {
+          fixed(width: 60, height: 60, quality: 95) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -23,7 +23,6 @@ const Bio = () => {
         siteMetadata {
           author {
             name
-            summary
           }
           social {
             twitter
@@ -36,7 +35,6 @@ const Bio = () => {
   // Set these values by editing "siteMetadata" in gatsby-config.js
   const author = data.site.siteMetadata?.author
   const social = data.site.siteMetadata?.social
-
   const avatar = data?.avatar?.childImageSharp?.fixed
 
   return (
@@ -53,11 +51,12 @@ const Bio = () => {
       )}
       {author?.name && (
         <p>
-          This is the website of <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You can follow me on Twitter if you'd like.
-          </a>
+          Written by {author.name}.
+          {` `}<br />
+         Newsletter 
+          | <a href={`https://twitter.com/${social?.twitter || ``}`}>
+            Twitter</a> | <a href="https://www.linkedin.com/in/thisismattsmith/">LinkedIn</a>
+          
         </p>
       )}
     </div>

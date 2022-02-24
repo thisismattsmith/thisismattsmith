@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Header from "../components/header"
 
 const Layout = ({ location, title, children }) => {
@@ -17,10 +16,8 @@ const Layout = ({ location, title, children }) => {
       <main>{children}
         </main>
       <footer>
-       © {new Date().getFullYear()}, Matt Smith. No tracking, no analytics. 
+       © {new Date().getFullYear()}, Matt Smith. Have a wonderful day. 
        <p></p>
-       <p>I'm constantly experimenting with this site. If you spot any errors please <Link to="/contact">contact me</Link></p>.
-        <form><input type="text" label="email"></input></form>
       </footer>
     </div>
     </div>
