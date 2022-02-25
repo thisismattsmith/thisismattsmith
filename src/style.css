@@ -496,6 +496,7 @@ p a {
 
 .greeting-title {
   font-weight: var(--fontWeight-light);
+  margin-bottom: 40px;
 }
 
 .enter-site {

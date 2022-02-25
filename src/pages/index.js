@@ -10,9 +10,8 @@ const HomePage = ({ data, location }) => {
         <LandingPage location={location}>
           <SEO title="Matt Smith" />
           <h1 className="home-title"><Greeting />This is Matt Smith's website.<br/>
-          I make useful things.<br />
-          Sometimes I write stuff.<br />
-          I'm really interested in growing up.</h1>
+          You can use it to see things I've made and read stuff I've written.<br />
+          </h1>
           <br />
           
           <p className="enter-site">Enter</p>
