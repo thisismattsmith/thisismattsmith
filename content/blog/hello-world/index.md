@@ -234,14 +234,15 @@ This paragraph has some `code` in it.
 
 <hr />
 
-### Notes:
+<h2 classname="fyi-title">fyi</h2>
+<p classname="fyi-box">
 
 1. This
 2. That
 3. Another one
 4. This one [google it](https://www.google.com "Google")
 Yup this is great mate
-
+</p>
 
 
 <a href="www.google.com">google</a>

@@ -14,7 +14,10 @@ const AboutPage = ({ data, location }) => {
       <p>Speak to meeee.t so I can see how long the page width is.</p>
           
           <p>Hi Whattup?</p>
-          <p>
+          <p>LinkedIn
+            Twitter
+            Discord
+            
 
           Woudl you like to hang out some time?
         

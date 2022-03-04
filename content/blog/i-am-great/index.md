@@ -1,5 +1,5 @@
 ---
-title: The space beteen ideas and execution
+title: In defense of bosses
 date: "2019-05-28T22:40:32.169Z"
 description: It's not ideas or execution, it's both. But what's in the middle is just as important.
 ---

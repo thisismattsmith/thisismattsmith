@@ -32,7 +32,8 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           itemProp="articleBody"
         />
         
-        
+        <small classname="blog-post-meta">Published: {post.frontmatter.date}</small>
+        <br />
         <br></br>
       </article>
       <nav className="blog-post-nav">
@@ -53,6 +54,8 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               </Link>
             )}
           </li>
+          <br />
+          <br />
           <li>
             {next && (
               <Link to={next.fields.slug} rel="next">
@@ -64,7 +67,6 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       </nav>
       <footer>
           <Bio />
-          <small classname="blog-post-date">Published: {post.frontmatter.date}</small>
         </footer>
     </Layout>
   )

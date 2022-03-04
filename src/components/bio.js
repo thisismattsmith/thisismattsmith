@@ -51,11 +51,10 @@ const Bio = () => {
       )}
       {author?.name && (
         <p>
-          Written by {author.name}.
+          Thanks for reading. If you'd like to read my latest posts you can join my newsletter. {author.name}.
           {` `}<br />
-         Newsletter 
-          | <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            Twitter</a> | <a href="https://www.linkedin.com/in/thisismattsmith/">LinkedIn</a>
+         I also post ideas and questions on  <a href="https://www.linkedin.com/in/thisismattsmith/">LinkedIn</a> and <a href={`https://twitter.com/${social?.twitter || ``}`}>
+            Twitter</a>.
           
         </p>
       )}
