@@ -260,7 +260,7 @@ a:hover {
   transition: all 0.8s ease 0s;
   text-decoration: none;
   fill: var(--color-secondary);
-  background: linear-gradient(90deg,#e52e71,blueviolet, var(--color-primary));
+  background: linear-gradient(90deg, var(--color-tertiary), var(--color-secondary), var(--color-primary));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-box-decoration-break: clone;
@@ -331,8 +331,8 @@ p a {
   color: var(--color-secondary);
   padding-left: 10px;
   text-decoration: none;
-  box-shadow: 4px 0px 0px 0px #e52e71 inset;
-  background: linear-gradient(90deg,#e52e71, blueviolet, var(--color-primary));
+  box-shadow: 4px 0px 0px 0px var(--color-tertiary) inset;
+  background: linear-gradient(90deg, var(--color-tertiary), var(--color-secondary), var(--color-primary));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-box-decoration-break: clone;
@@ -402,7 +402,7 @@ p a {
 
 .post-list-item:hover {
   transition: all 0.4s ease 0s;
-  box-shadow: 5px 0px 0px 0px #e52e71 inset;
+  box-shadow: 5px 0px 0px 0px var(--color-tertiary) inset;
   
 }
 
@@ -432,7 +432,7 @@ p a {
 .post-list-item:hover h2 a {
   color: var(--color-secondary);
   text-decoration: none;
-  background: linear-gradient(135deg,#e52e71, blueviolet, var(--color-primary));
+  background: linear-gradient(135deg,var(--color-tertiary), var(--color-secondary), var(--color-primary));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-box-decoration-break: clone;
@@ -511,41 +511,35 @@ p a {
 /* Radio buttons disguised as tabs */
 
 input { display: none; }                /* hide radio buttons */
-input + label { display: inline-block; cursor: pointer; margin-right: 10px; margin-top: 10px;} /* show labels in line */
+input + label { display: inline-block; cursor: pointer; margin-right: -5px; margin-top: 10px;} /* show labels in line */
 input ~ .tab { display: none }          /* hide contents */
 /* show contents only for selected tab */
 #tab1:checked ~ .tab.content1,
 #tab2:checked ~ .tab.content2,
-#tab3:checked ~ .tab.content3,
-#tab4:checked ~ .tab.content4,
-#tab5:checked ~ .tab.content5 { display: block; padding-top: 20px;}
+#tab3:checked ~ .tab.content3 { display: block; padding-top: 20px; font-size: var(--fontSize-2); font-weight: var(--fontWeight-normal); letter-spacing: -0.025em;}
+
 
 input + label {    
-  font-weight: var(--fontWeight-bold);
-  font-family: var(--font-body);
-  text-decoration: none;
-  font-size: var(--fontSize-2);
-  padding: 4px 12px;
+  text-decoration: underline solid rgb(211, 211, 211) 4px;
+  font: inherit;
   position: relative;
   top: 1px;
-  box-shadow: inset 0 -3px 0 rgb(46, 46, 46);
-  opacity: 0.3;
+  transition: ease-in .18s;
 }
 
 input:hover + label {   
   transform: skew(-6deg) scaleX(0.92);
-  transition: ease-in .05s;
+  transition: ease-in .18s;
   box-sizing: border-box;
-  opacity: 1;
+  text-decoration: underline dashed rgb(211, 211, 211) 5px;
 }
 
 input:checked + label {  
   transform: none;  
   background: rgba(255, 255, 255);
-  box-shadow: inset 0 -3px 0 var(--color-primary);
+  text-decoration: underline solid var(--color-primary) 6px;
   transition: ease-in .18s;
   box-sizing: border-box;
-  opacity: 1;
 }
 
 
@@ -620,6 +614,10 @@ input:checked + label {
 
 .blog-post {
   padding: 20px;
+}
+
+.home-title {
+  font-size: var(--fontSize-5);
 }
 
 
