@@ -11,26 +11,7 @@ const HomePage = ({ data, location }) => {
         <LandingPage location={location}>
           <SEO title="Matt Smith" />
           <Accordian />
-          
-          <h1 className="home-title"><Greeting />This is <button class="accordion">Matt Smith</button>'s website.
-          <div class="panel">
-            <p>Matt Smith is a dude.</p>
-          </div><br/>
-          
-          I <button class="accordion">make stuff</button>.
-          <div class="panel">
-            <p>Lorem ipsum..</p>
-          </div>
-          <br />
-          I <button class="accordion">write things</button>.<br />
-          <div class="panel">
-            <p>Lorem ipjhghkgkjg</p>
-          </div>
-          <br />
-          </h1>
-          <br />
-          
-         
+          <br />       
 
           
           
