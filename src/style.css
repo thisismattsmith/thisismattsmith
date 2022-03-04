@@ -507,6 +507,7 @@ p a {
   margin-bottom: 300px;
   text-align: center;
 }
+
 /* Radio buttons disguised as tabs */
 
 input { display: none; }                /* hide radio buttons */
@@ -554,8 +555,6 @@ input:checked + label {
   padding-right: 10px;
 }
 
-
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -570,6 +569,36 @@ input:checked + label {
   text-align: left;
 }
 
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  cursor: pointer;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.6s;
+  background-color: #fcfcfc;
+  font-weight: var(--fontWeight-thin);
+  padding-bottom: -40px;
+}
+
+.accordion {
+  border-bottom: 4px dashed rgb(234, 241, 255);
+}
+
+.active, .accordion:hover {
+  border-bottom: 4px solid rgb(234, 241, 255);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 10px 18px;
+  background-color: rgb(234, 241, 255);
+  display: none;
+  overflow: hidden;
+  font-size: var(--fontSize-3);
+  font-weight: var(--fontWeight-normal);
+  margin-bottom: -50px;
+}
 
 /* Media queries */
 
