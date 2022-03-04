@@ -1,9 +1,8 @@
 import React from "react"
 import Greeting from "./greeting";
-import LandingPage from "./landing";
 
 const Accordian = ({ data, location }) => {
-    var acc = document.getElementsByClassName("accordion");
+    const acc = document.getElementsByClassName("accordion");
     var i;
     
     for (i = 0; i < acc.length; i++) {
@@ -30,7 +29,7 @@ const Accordian = ({ data, location }) => {
           <p>Lorem ipsum..</p>
         </div>
         <br />
-        I <button class="accordion">write things</button>.<br />
+        I <button class="accordion">write things</button>.
         <div class="panel">
           <p>Lorem ipjhghkgkjg</p>
         </div>
