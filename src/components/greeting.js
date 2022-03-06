@@ -7,7 +7,7 @@ const Greeting = ({ data, location }) => {
   var date = new Date();  
   var hour = date.getHours();  
   
-  if (hour < 12) {  
+  if (hour < 10) {  
 
     return (
       
@@ -19,6 +19,17 @@ const Greeting = ({ data, location }) => {
     )
   }
 
+  if (hour < 12) {  
+
+    return (
+      
+       
+      <h1>
+         Hi there!
+        </h1>
+     
+    )
+  }
 
 if (hour < 17) {  
 

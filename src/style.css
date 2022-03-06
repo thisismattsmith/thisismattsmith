@@ -260,7 +260,7 @@ a:hover {
   transition: all 0.8s ease 0s;
   text-decoration: none;
   fill: var(--color-secondary);
-  background: linear-gradient(90deg, var(--color-tertiary), var(--color-secondary), var(--color-primary));
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary), var(--color-tertiary));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-box-decoration-break: clone;
@@ -325,14 +325,16 @@ p a {
   color: rgb(88, 88, 88);
   font-weight: var(--fontWeight-normal);
   font-size: var(--fontSize-1);
+  text-decoration: solid var(--color-primary) 2px;
+  text-decoration: underline rgb(88, 88, 88);
 }
 
 .sidebar-link:hover {
-  color: var(--color-secondary);
+  color: var(--color-primary);
   padding-left: 10px;
   text-decoration: none;
-  box-shadow: 4px 0px 0px 0px var(--color-tertiary) inset;
-  background: linear-gradient(90deg, var(--color-tertiary), var(--color-secondary), var(--color-primary));
+  box-shadow: 4px 0px 0px 0px var(--color-primary) inset;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary), var(--color-tertiary));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-box-decoration-break: clone;
@@ -402,7 +404,7 @@ p a {
 
 .post-list-item:hover {
   transition: all 0.4s ease 0s;
-  box-shadow: 5px 0px 0px 0px var(--color-tertiary) inset;
+  box-shadow: 5px 0px 0px 0px var(--color-primary) inset;
   
 }
 
@@ -414,13 +416,6 @@ p a {
   
 }
 
-.post-list-item small {
-  margin-bottom: var(--spacing-8);
-  color: blueviolet;
-  -webkit-background-clip: none;
-  -webkit-text-fill-color: blueviolet;
-}
-
 .post-list-item h2 {
   font-size: var(--fontSize-5);
   font-weight: var(--fontWeight-semibold);
@@ -430,9 +425,9 @@ p a {
 }
 
 .post-list-item:hover h2 a {
-  color: var(--color-secondary);
+  color: var(--color-primary);
   text-decoration: none;
-  background: linear-gradient(135deg,var(--color-tertiary), var(--color-secondary), var(--color-primary));
+  background: linear-gradient(135deg,var(--color-primary), var(--color-secondary), var(--color-tertiary));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-box-decoration-break: clone;
@@ -511,19 +506,19 @@ p a {
 /* Radio buttons disguised as tabs */
 
 input { display: none; }                /* hide radio buttons */
-input + label { display: inline-block; cursor: pointer; margin-right: -5px; margin-top: 10px;} /* show labels in line */
+input + label { display: inline-block; cursor: pointer; margin-right: -5px;} /* show labels in line */
 input ~ .tab { display: none }          /* hide contents */
 /* show contents only for selected tab */
 #tab1:checked ~ .tab.content1,
 #tab2:checked ~ .tab.content2,
-#tab3:checked ~ .tab.content3 { display: block; padding-top: 20px; font-size: var(--fontSize-2); font-weight: var(--fontWeight-normal); letter-spacing: -0.025em;}
+#tab3:checked ~ .tab.content3,
+#tab4:checked ~ .tab.content4 { display: block; padding-top: 40px; font-size: var(--fontSize-2); font-weight: var(--fontWeight-normal); letter-spacing: -0.025em;}
 
 
 input + label {    
   text-decoration: underline solid rgb(211, 211, 211) 4px;
   font: inherit;
   position: relative;
-  top: 1px;
   transition: ease-in .18s;
 }
 
