@@ -234,9 +234,6 @@ This paragraph has some `code` in it.
 
 <hr />
 
-<h2 classname="fyi-title">fyi</h2>
-<p classname="fyi-box">
-
 1. This
 2. That
 3. Another one

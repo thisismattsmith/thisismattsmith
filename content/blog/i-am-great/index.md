@@ -119,10 +119,9 @@ didn’t take long until a few insidious Copy Writers ambushed her, made her dru
 with Longe and Parole and dragged her into their agency, where they abused her
 for their projects again and again.
 
-<hr></hr>
+### fyi
+<hr />
 
-#### Notes:
-1. This is a good thing
-2. Hello
-- Hi
-
+1. This is a note
+2. This is another note
+3. this is a note with a [url](https://www.google.com "google") in it

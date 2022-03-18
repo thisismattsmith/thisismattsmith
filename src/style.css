@@ -103,6 +103,7 @@ hr {
   border: 0;
 }
 
+
 /* Heading */
 
 h1,
@@ -189,11 +190,11 @@ ol {
 ul li,
 ol li {
   padding-left: var(--spacing-0);
-  margin-bottom: calc(var(--spacing-8) / 2);
+  margin-bottom: (var(--spacing-2));
 }
 
 li > p {
-  margin-bottom: calc(var(--spacing-8) / 2);
+  margin-bottom: (var(--spacing-2));
 }
 
 li *:last-child {
@@ -202,7 +203,7 @@ li *:last-child {
 
 li > ul {
   margin-left: var(--spacing-8);
-  margin-top: calc(var(--spacing-8) / 2);
+  margin-top: var(--spacing-0);
 }
 
 blockquote {
@@ -268,6 +269,11 @@ a:hover {
 }
 
 p a {
+  text-decoration: underline;
+  transition: all 0.8s ease 0s;
+}
+
+.blog-post li a {
   text-decoration: underline;
   transition: all 0.8s ease 0s;
 }
@@ -485,11 +491,6 @@ p a {
   margin: var(--spacing-0);
   text-transform: uppercase;
   font-weight: var(--fontWeight-bold);
-}
-
-.fyi-title {
-  background-color: black;
-  color: black;
 }
 
 .gatsby-highlight {
