@@ -8,8 +8,7 @@ const ProjectsPage = ({ data, location }) => {
 
   return (
     <Layout location={location}>
-      <SEO title="About Matt Smith" />
-      <h3>/projects</h3>
+      <SEO title="Projects" />
       <h1>Experiments and things I've done for fun</h1>
       <p></p>
       <hr></hr>

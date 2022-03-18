@@ -9,9 +9,8 @@ const ConsultingPage = ({ data, location }) => {
   return (
     <Layout location={location}>
       <SEO title="Consulting" />
-      <h3>/consulting</h3>
       <h1>I help companies perform better through learning and development</h1><p>
-      <p>
+      <p>I'm currently unavailable for consulting.
       </p>
       <h3>Title</h3>
 <input type="radio" name="tabs" id="tab1"/> 
