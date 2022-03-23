@@ -32,7 +32,7 @@ const HomePage = ({ data, location }) => {
         <iframe src="https://mattsmith.substack.com/embed" width="100%" height="180" frameborder="0" scrolling="no"></iframe></div>
         <br />
         </h1>   
-          <p className="enter-site">Enter</p>
+          <p className="enter-site"><Link to="/about">☞</Link></p>
           </LandingPage>
           )
           }
