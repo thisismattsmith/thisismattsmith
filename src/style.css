@@ -584,6 +584,7 @@ input:checked + label {
   background-color: #fcfcfc;
   border-bottom: solid 2px #25282b;
   overflow-y: hidden;
+ 
 }
 
 .sidebar-wrapper {
@@ -599,7 +600,7 @@ input:checked + label {
 }
 
 .sidebarPic {
-display: none;
+  display: none;
 }
 
 .sidebar-wrapper ul li {
@@ -618,14 +619,9 @@ display: none;
   background-color: white;
 }
 
-header {
+.global-wrapper {
   margin-top: 100px;
 }
-.blog-post {
-  padding: 20px;
-  margin-top: 50px;
-}
-
 .home-title {
   font-size: var(--fontSize-5);
 }

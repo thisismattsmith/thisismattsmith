@@ -15,8 +15,8 @@ const Header = () => (
             <li><Link to="/blog" className="sidebar-link">Blog</Link></li>
             <li><Link to="/projects" className="sidebar-link">Projects</Link></li>
             <li><Link to="/contact" className="sidebar-link">Contact</Link></li>
-            <li><Link to="/consulting" className="sidebar-link">Hire me</Link></li>
             <li><Link to="/newsletter" className="sidebar-link">Newsletter</Link></li>
+            <li><Link to="/consulting" className="sidebar-link">Hire me</Link></li>
           </ul>  
   </div>
   </div>
