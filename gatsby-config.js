@@ -3,7 +3,7 @@ module.exports = {
     title: `thisismattsmith.com`,
     author: {
       name: `Matt Smith`,
-      summary: `who is a rad dude.`,
+      summary: `makes and writes stuff about work, learning and growing up`,
     },
     description: `The website of Matt smith`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
@@ -73,7 +73,7 @@ module.exports = {
         short_name: `thisismattsmith.com`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#fcfcfc`,
         display: `minimal-ui`,
         icon: `content/assets/thisismattsmith.png`,
       },
