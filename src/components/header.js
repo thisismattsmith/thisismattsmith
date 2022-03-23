@@ -11,12 +11,12 @@ const Header = () => (
     </div>
   <div className="sidebar-wrapper">
           <ul>
-            <li><Link to="/about" className="sidebar-link">about</Link></li>
-            <li><Link to="/blog" className="sidebar-link">blog</Link></li>
-            <li><Link to="/projects" className="sidebar-link">projects</Link></li>
-            <li><Link to="/contact" className="sidebar-link">contact</Link></li>
-            <li><Link to="/consulting" className="sidebar-link">consulting</Link></li>
-            <li><Link to="/newsletter" className="sidebar-link">newsletter</Link></li>
+            <li><Link to="/about" className="sidebar-link">About</Link></li>
+            <li><Link to="/blog" className="sidebar-link">Blog</Link></li>
+            <li><Link to="/projects" className="sidebar-link">Projects</Link></li>
+            <li><Link to="/contact" className="sidebar-link">Contact</Link></li>
+            <li><Link to="/consulting" className="sidebar-link">Hire me</Link></li>
+            <li><Link to="/newsletter" className="sidebar-link">Newsletter</Link></li>
           </ul>  
   </div>
   </div>
