@@ -522,6 +522,9 @@ input ~ .tab { display: none }          /* hide contents */
 
 input + label {    
   text-decoration: underline solid rgb(211, 211, 211) 4px;
+  -webkit-text-decoration-line: underline;
+  -webkit-text-decoration-color: rgb(211, 211, 211);
+  -webkit-text-decoration-size: 4px;
   font: inherit;
   position: relative;
   transition: ease-in .18s;
@@ -532,12 +535,18 @@ input:hover + label {
   transition: ease-in .18s;
   box-sizing: border-box;
   text-decoration: underline dashed rgb(211, 211, 211) 5px;
+  -webkit-text-decoration: underline dashed;
+  -webkit-text-decoration-color: rgb(211, 211, 211);
+  -webkit-text-decoration-size: 4px;
 }
 
 input:checked + label {  
   transform: none;  
   background: rgba(255, 255, 255);
   text-decoration: underline solid var(--color-primary) 6px;
+  -webkit-text-decoration: underline;
+  -webkit-text-decoration-color: var(--color-primary);
+  -webkit-text-decoration-size: 6px;
   transition: ease-in .18s;
   box-sizing: border-box;
 }
