@@ -547,7 +547,6 @@ input:hover + label {
 
 input:checked + label {  
   transform: none;  
-  background: rgba(255, 255, 255);
   text-decoration: underline solid var(--color-primary) 6px;
   -webkit-text-decoration: underline;
   -webkit-text-decoration-color: var(--color-primary);
@@ -636,10 +635,10 @@ input:checked + label {
 .global-wrapper {
   margin-top: 100px;
 }
+
 .home-title {
   font-size: var(--fontSize-7);
 }
-
 
 }
 

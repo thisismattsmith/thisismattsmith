@@ -40,11 +40,7 @@ const Bio = () => {
     <div className="bio">
       {author?.name && (
         <p>
-          Thanks for reading. If you'd like to read my latest posts you can join my newsletter. {author.name}.
-          {` `}<br />
-         I also post ideas and questions on  <a href="https://www.linkedin.com/in/thisismattsmith/">LinkedIn</a> and <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            Twitter</a>.
-          
+          Thanks for reading. I send out a monthly email with links to my new articles, ideas and projects. You can <a href="https://www.getrevue.co/profile/thisismattsmith" target="_blank" referrer="norel">Join here.</a>         
         </p>
       )}
     </div>

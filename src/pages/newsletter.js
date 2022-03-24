@@ -9,11 +9,12 @@ const AboutPage = ({ data, location }) => {
   return (
     <Layout location={location}>
       <SEO title="Newsletter" />
-      <h1>I have a newsletter.</h1>
-      <p>Here are some ideas that I don't have the time, ability or resources to work on right now. You're welcome to take any of these ideas and work on them as your own, as long as you let me know.</p>
-      <p>And feel free to get in touch if you have any questions about an idea or want to collaborate on one.</p> 
+      <h1>I have a newsletter</h1>
+      <p>Actually, I have two!</p>
+      <p>The first is for anyone who would like to keep an eye on my work. It's a monthly update of new projects, ideas and articles. It's the best way to keep up to date with what I'm doing. You can <a href="https://www.getrevue.co/profile/thisismattsmith" target="_blank" referrer="norel">join here</a></p> 
+      <p> I also write another newsletter that explores my main interests, all rolled up into the topic of <em>Growing Up</em>. I write essays exploring ideas about maturity, wisdom, learning, adult and child development, parenting, personal growth, and understanding who we are and where we fit into the world.</p>
       <iframe src="https://mattsmith.substack.com/embed" width="100%" height="180" frameborder="0" scrolling="no"></iframe>
-      <p>If you'd like to stay up to date with what I write here you can use the RSS feed or follow And feel free to get in touch if you have any questions about an idea or want to collaborate on one.</p>
+      <p>My hope is that this turns into a collaborative project, a digital place where we can explore these topics together.</p>
     </Layout>
   )
 }

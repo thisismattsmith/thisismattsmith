@@ -16,8 +16,7 @@ const Layout = ({ location, title, children }) => {
       <main>{children}
         </main>
       <footer>
-       <small>© {new Date().getFullYear()}, Matt Smith. Come say hi on LinkedIn, Twitter • Have a wonderful day. </small>
-       <p></p>
+      <small>© {new Date().getFullYear()}, Matt Smith. Have a splendid day. </small>
       </footer>
     </div>
     </div>

@@ -15,7 +15,7 @@ const AboutPage = ({ data, location }) => {
           <p>Hi Whattup?</p>
           <p>LinkedIn
             Twitter
-            Discord
+            Discord username: Matt Smith#3628
             
 
           Woudl you like to hang out some time?

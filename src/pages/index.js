@@ -19,6 +19,8 @@ const HomePage = ({ data, location }) => {
 <div class="tab content1">
   <p>Okay, if you don't mind I'm going to switch to writing in the first person now.</p>
   <p>If you'd like more info about me take a look at my <Link to="/about">about</Link> page or get in <Link to="/contact">contact</Link> with me.</p>
+  <p><Link to="/consulting">Hire me</Link> as an advisor.</p>
+  <p><Link to="/contact">Contact me</Link> for any questions or offers to collaborate.</p> 
 </div> 
 <div class="tab content2"><p>I create all kinds of stuff to help people learn. work on the <Link link to="/projects">projects page</Link>.</p>
 </div>
@@ -27,7 +29,7 @@ const HomePage = ({ data, location }) => {
   <p>Is great</p>
   
 </div>
-<div class="tab content4"><p>Everything I work on can be rolled up into this topic of "Growing up". This includes learning, expertise, management, culture, parenting, adult development, childhood development, education and cultivating systems that enable us to be better people. I go into more detail</p>
+<div class="tab content4"><p>Everything I work on can be rolled up into this topic of "Growing up". This includes learning, expertise, wisdom, personal growth, culture, parenting, adult development, childhood development, education and cultivating systems that enable us to be better people.</p>
         <p>In fact, I have a <Link to="/newsletter">newsletter</Link> called <em>Growing Up</em>. I send out an essay a month about these very topics. Enter your email below if that's something you'd be interested in.</p>
         <iframe src="https://mattsmith.substack.com/embed" width="100%" height="180" frameborder="0" scrolling="no"></iframe></div>
         <br />
