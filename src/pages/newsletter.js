@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const AboutPage = ({ data, location }) => {
+const NewsletterPage = ({ data, location }) => {
   
 
   return (
@@ -19,4 +19,4 @@ const AboutPage = ({ data, location }) => {
   )
 }
 
-export default AboutPage
+export default NewsletterPage

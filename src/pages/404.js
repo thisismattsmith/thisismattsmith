@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Landing from "../components/landing"
 import SEO from "../components/seo"
+import { Link } from "gatsby"
 
 const NotFoundPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -13,7 +14,7 @@ const NotFoundPage = ({ data, location }) => {
       <h2>Something is terribly wrong...</h2>
       
       
-      <p>It seems that the page you're looking for does not exist.</p>
+      <p>It seems that the page you're looking for does not exist. Return <Link to="/">Home</Link></p>
       </div>
       
 

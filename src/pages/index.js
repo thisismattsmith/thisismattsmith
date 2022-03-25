@@ -22,11 +22,12 @@ const HomePage = ({ data, location }) => {
   <p><Link to="/consulting">Hire me</Link> as an advisor.</p>
   <p><Link to="/contact">Contact me</Link> for any questions or offers to collaborate.</p> 
 </div> 
-<div class="tab content2"><p>I create all kinds of stuff to help people learn. work on the <Link link to="/projects">projects page</Link>.</p>
+<div class="tab content2"><p>I'm always working on few <Link link to="/projects">projects</Link> at a time.</p>
+<br />
+<p>You can also <Link link to="/consulting">hire me</Link> to create something for you.</p>
 </div>
 <div class="tab content3">
-  <p>I'm currently working on a website to help people learn Performance Consulting. YouI'm currently working on a website to help people learn Performance Consulting. YouI'm currently working on a website to help people learn Performance Consulting. YouI'm currently working on a website to help people learn Performance Consulting. You</p>
-  <p>Is great</p>
+  <p>I'm trying to keep my writing on this site mostly concentrated on how we can work and learn in new</p>
   
 </div>
 <div class="tab content4"><p>Everything I work on can be rolled up into this topic of "Growing up". This includes learning, expertise, wisdom, personal growth, culture, parenting, adult development, childhood development, education and cultivating systems that enable us to be better people.</p>
