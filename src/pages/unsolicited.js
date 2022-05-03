@@ -3,15 +3,20 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const AboutPage = ({ data, location }) => {
+const UnsolicitedPage = ({ data, location }) => {
   
 
   return (
     <Layout location={location}>
       <SEO title="My page for people who send me unsolicited sales pitches" />
-      <h1>Hey!</h1>
-      <p>Thanks for</p>
+      <h1>A handy guide to help you sell to me (and other people)</h1>
+      <p>Hey there! I've given you this link because I think you're trying to sell me something.</p>
 
+      <ul>
+        <li>I'm not your target customer</li>
+        <li></li>
+        <li>I'm opposed to</li>
+      </ul>
           <p>Hi Whattup?</p>
           <p>
           Woudl you like to hang out some time?</p>
@@ -22,4 +27,4 @@ const AboutPage = ({ data, location }) => {
   )
 }
 
-export default AboutPage
+export default UnsolicitedPage

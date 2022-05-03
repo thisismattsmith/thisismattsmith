@@ -94,7 +94,23 @@ body {
 
 footer {
   padding: var(--spacing-6) var(--spacing-0);
-  
+  font-size: small;
+  color: black;
+}
+
+footer p a {
+  color: black;
+}
+
+footer p a:hover {
+  color: red;
+  text-decoration: none;
+  background: linear-gradient(180deg, black 10%, yellow 50%, yellow 60%, red 30%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  transition: all 0.8s ease 0s;
 }
 
 hr {

@@ -1,5 +1,6 @@
 import React from "react"
 import Header from "../components/header"
+import { Link } from "gatsby"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -16,7 +17,7 @@ const Layout = ({ location, title, children }) => {
       <main>{children}
         </main>
       <footer>
-      <small>© {new Date().getFullYear()}, Matt Smith. Have a splendid day. </small>
+      <p classname="footer-text">© {new Date().getFullYear()}, Matt Smith. Built on <Link to="/acknowledgement">Wadawurrung country</Link>. Thanks for visiting.</p>
       </footer>
     </div>
     </div>

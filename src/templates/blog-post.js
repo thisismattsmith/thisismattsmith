@@ -65,9 +65,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </li>
         </ul>
       </nav>
-      <footer>
+    
           <Bio />
-        </footer>
+      
     </Layout>
   )
 }
